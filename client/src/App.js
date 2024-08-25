@@ -23,7 +23,7 @@ function App() {
       }
 
      
-      const res = await axios.post('http://localhost:5000/bfhl', parsedData);
+      const res = await axios.post('https://bajaj-finserv-c8b5.onrender.com/bfhl', parsedData);
       setResponse(res.data);
       setError('');
     } catch (err) {

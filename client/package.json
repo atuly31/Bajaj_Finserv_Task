@@ -1,5 +1,5 @@
 {
-  "proxy":"http://localhost:5000",
+  "proxy":"https://bajaj-finserv-c8b5.onrender.com/bfhl",
   "name": "client",
   "version": "0.1.0",
   "private": true,
